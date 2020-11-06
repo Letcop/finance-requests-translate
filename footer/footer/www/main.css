@@ -1,0 +1,303 @@
+body {
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #F8F8FA;
+    font-size: 16px;
+    color: #12114A;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: all .2s ease;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+     text-decoration: underline;
+    color: #00CF4D;
+}
+
+.green {
+    color: #00CF4D;
+}
+
+.dis {
+    display: none;
+}
+
+.container_ded {
+    width: 88.99%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Footer */
+
+.footer {
+    background: url(../img/footer.jpg) no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.container_ded:last-child {
+    margin: 0 auto;
+}
+
+.footer__item {
+    margin: 20px 0;
+}
+
+.footer__item:first-child a:hover {
+   text-decoration: none;
+    color: #fff;
+}
+
+.letcop__com {
+    max-width: fit-content;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 165%;
+    font-weight: 700;
+}
+
+#letcop_com {
+    width: 34%;
+}
+
+#investonse {
+    width: 100%;    
+}
+
+.olymp p{
+    font-size: 83%;
+}
+
+.footer__item__head {
+    margin: 10px 0 20px;
+    font-weight: 600;
+}
+
+.item__list {
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.soc-end a{
+    margin-right: 15px;
+}
+
+.soc-end a i{
+    color: #fff;
+}
+
+@media (max-width: 4000px) {
+    body {
+        font-size: 23px;
+    }
+    
+    .social a i {
+        font-size: 38px;
+    }
+    
+    .item__list {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 2056px) {
+    body {
+        font-size: 20px;
+    }
+
+    .social a i {
+        font-size: 34px;
+    }
+    
+    .item__list {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1600px) {
+    body {
+        font-size: 18px;
+    }
+
+    .social a i {
+        font-size: 32px;
+    }
+    
+    .item__list {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1366px) {
+    body {
+        font-size: 16px;
+    }
+    
+    .social a i {
+        font-size: 30px;
+    }
+    
+    .item__list {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1150px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .social a i {
+        font-size: 25px;
+    }
+    
+    .item__list {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 990px) {
+    body {
+        line-height: 1.5em;
+        font-size: 15px;
+    }
+
+    .container_ded {
+        width: 98%;
+    }
+
+    .disNon {
+        display: none;
+    }
+    
+    .dis {
+        display: block;
+    }
+
+    .footer__mob {
+        
+    }
+    
+    .footer__item {
+        margin: 0;
+        margin-top: 7px;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        
+        background-color:  #12114A;
+    }
+    
+    .footer__item:first-child {
+        justify-content: space-around;
+        background-color: #fff;
+        margin-bottom: 0;
+        
+    }
+    
+    .blocks_fr {
+        margin-top: 5px;
+        text-align: center;
+        
+    }
+    
+    .fr__item {
+        width: 100%;
+        color: #12114A;
+        font-weight: 600;
+    }
+    
+    .fr__line {
+        margin: 5px 0;
+        border-bottom: 1px solid #12114A;
+    }
+    
+    .logo__mob {
+        width: 30%;
+    }
+    
+    #aboutServiceBlock {
+        position: relative;
+    }
+    
+    #chevronAbSv {
+        position: absolute;
+        top: 29%;
+        right: 10px;
+    }
+    
+    #forUsersBlock {
+        position: relative;
+    }
+    
+    #chevronForUsers {
+        position: absolute;
+        top: 29%;
+        right: 10px;
+    }
+    
+     #hpBlock {
+        position: relative;
+    }
+    
+    #chevronHp {
+        position: absolute;
+        top: 29%;
+        right: 10px;
+    }
+
+    .copy {
+        line-height: 1.8em;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 770px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .footer__item {
+        margin-top: 5px;
+        padding: 8px 0;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+    .footer__item {
+        margin-top: 6px;
+        padding: 6px 0;
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="icon" href="img/favicon-32x32.png" sizes="32x32" type="image/png" />
+
+	<link rel="stylesheet" href="fontawesome/css/all.min.css" />
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/translate_media.css" />
+	<title></title>
+</head>
+
+<body>
+	<!-- Header -->
+	<header>
+		<nav class="nav">
+			<div class="position-absolute w-100 h-100 overflow-hidden bg-container">
+				<img class="fon" src="img/fon.png" alt="" />
+			</div>
+			<div class="conteiner">
+				<div class="head__main_block">
+					<div class="head__burger">
+						<div class="burger__iteam"></div>
+					</div>
+					<img class="media__logo" src="img/icon.svg" />
+
+					<div class="head__left">
+						<img class="head__logo" src="img/icon.svg" />
+						<nav>
+							<a href="#/">Заказы</a>
+							<a href="#/">Вакансии</a>
+
+							<div class="head__bottom clickedElem">
+								<span>Люди</span>
+								<i class="fal fa-chevron-down"></i>
+
+								<div class="hide__link">
+									<a href="#/">Все команды</a>
+									<a href="#/">Все исполнители</a>
+								</div>
+							</div>
+
+							<div class="head__bottom clickedElem">
+								<span>Еще</span>
+								<i class="fal fa-chevron-down"></i>
+
+								<div class="hide__link">
+									<a href="#/">Форум</a>
+									<a href="#/">Блог</a>
+									<a href="#/">Новости</a>
+								</div>
+							</div>
+						</nav>
+					</div>
+					<div class="head__botton">
+						<div class="head__bell clickedElem active__bell">
+							<p>200</p>
+							<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 251.2 251.2"
+								style="enable-background: new 0 0 251.2 251.2" xml:space="preserve">
+								<path class="st0" d="M174.9,154.9c-0.3-0.3-0.4-0.6-0.4-1v-44.8c0-25.4-19.5-46.3-44.2-48.7V49.8c0-2.6-2.1-4.7-4.7-4.7
+									c-2.6,0-4.7,2.1-4.7,4.7v10.7c-24.8,2.4-44.2,23.3-44.2,48.7v44.8c0,0.4-0.2,0.7-0.4,1l-11.7,11.7c-2,2-3.1,4.7-3.1,7.6v3.6
+									c0,5.9,4.8,10.8,10.8,10.8h32.7c1.7,9.9,10.3,17.5,20.7,17.5s19-7.6,20.7-17.5H179c5.9,0,10.8-4.8,10.8-10.8v-3.6
+									c0-2.9-1.1-5.6-3.1-7.6L174.9,154.9z M125.6,196.7c-5.2,0-9.6-3.5-11.1-8.2h22.1C135.1,193.3,130.8,196.7,125.6,196.7z M61.7,150.1
+									c-0.9,0.9-2.1,1.4-3.3,1.4c-1.2,0-2.4-0.5-3.3-1.4c-7.5-7.5-11.6-17.5-11.6-28s4.1-20.6,11.6-28c1.8-1.8,4.8-1.8,6.6,0
+									c1.8,1.8,1.8,4.8,0,6.6c-5.7,5.7-8.9,13.3-8.9,21.4c0,8.1,3.1,15.7,8.9,21.4C63.5,145.3,63.5,148.3,61.7,150.1z M45.2,160
+									c1.8,1.8,1.8,4.8,0,6.6c-0.9,0.9-2.1,1.4-3.3,1.4c-1.2,0-2.4-0.5-3.3-1.4c-11.9-11.9-18.5-27.7-18.5-44.5s6.6-32.6,18.5-44.5
+									c1.8-1.8,4.8-1.8,6.6,0c1.8,1.8,1.8,4.8,0,6.6c-10.1,10.1-15.7,23.6-15.7,37.9S35.1,149.9,45.2,160z M196.1,150.1
+									c-0.9,0.9-2.1,1.4-3.3,1.4s-2.4-0.5-3.3-1.4c-1.8-1.8-1.8-4.8,0-6.6c11.8-11.8,11.8-31.1,0-42.9c-1.8-1.8-1.8-4.8,0-6.6
+									c1.8-1.8,4.8-1.8,6.6,0C211.6,109.5,211.6,134.7,196.1,150.1z M231,122.1c0,16.8-6.6,32.6-18.5,44.5c-0.9,0.9-2.1,1.4-3.3,1.4
+									s-2.4-0.5-3.3-1.4c-1.8-1.8-1.8-4.8,0-6.6c10.1-10.1,15.7-23.6,15.7-37.9s-5.6-27.8-15.7-37.9c-1.8-1.8-1.8-4.8,0-6.6
+									c1.8-1.8,4.8-1.8,6.6,0C224.5,89.4,231,105.3,231,122.1z" />
+							</svg>
+
+							<div class="hide__modal_block" id="remove__mobile">
+								<div class="hide__modal_triangle"></div>
+								<div class="hide__bell_modal">
+									<div class="hide__modal_iteam">
+										<i class="fas fa-bullhorn"></i>
+										<div class="hide__modal_content">
+											<div class="hide__modal_title">Напоминание</div>
+											<div class="hide__modal_text">
+												Действие вашего вашего тарифа истекает через 1 день!
+											</div>
+										</div>
+									</div>
+									<div class="hide__modal_iteam">
+										<i class="fas fa-award"></i>
+										<div class="hide__modal_content">
+											<div class="hide__modal_title">Достижение</div>
+											<div class="hide__modal_text">
+												Вы получили новое достижение “Торговец”
+											</div>
+										</div>
+									</div>
+									<div class="hide__modal_iteam">
+										<i class="fas fa-star"></i>
+										<div class="hide__modal_content">
+											<div class="hide__modal_title">Рейтинг</div>
+											<div class="hide__modal_text">
+												Ваш рейтинг повысился просмотрите новый отзыв от
+												<span>Hamilioner</span>
+											</div>
+										</div>
+									</div>
+									<div class="hide__modal_iteam">
+										<i class="fas fa-star"></i>
+										<div class="hide__modal_content">
+											<div class="hide__modal_title">Рейтинг</div>
+											<div class="hide__modal_text">
+												Ваш рейтинг повысился просмотрите новый отзыв от
+												<span>Hamilioner</span>
+											</div>
+										</div>
+									</div>
+									<div class="hide__modal_iteam">
+										<i class="fas fa-star"></i>
+										<div class="hide__modal_content">
+											<div class="hide__modal_title">Рейтинг</div>
+											<div class="hide__modal_text">
+												Ваш рейтинг повысился просмотрите новый отзыв от
+												<span>Hamilioner</span>
+											</div>
+										</div>
+									</div>
+									<div class="hide__modal_iteam">
+										<i class="fas fa-star"></i>
+										<div class="hide__modal_content">
+											<div class="hide__modal_title">Рейтинг</div>
+											<div class="hide__modal_text">
+												Ваш рейтинг повысился просмотрите новый отзыв от
+												<span>Hamilioner</span>
+											</div>
+										</div>
+									</div>
+									<div class="hide__modal_iteam">
+										<i class="fas fa-gift"></i>
+										<div class="hide__modal_content">
+											<div class="hide__modal_title">Подарки</div>
+											<div class="hide__modal_text">
+												Администрация Letcop поздравляет вас с Днем Рождения,
+												вы получаете в подарок тариф "Gold"
+											</div>
+										</div>
+									</div>
+									<div class="hide__modal_iteam">
+										<i class="fas fa-exclamation-circle"></i>
+										<div class="hide__modal_content">
+											<div class="hide__modal_title">Администрация</div>
+											<div class="hide__modal_text">
+												Ваш заказ был удален по причине "Ненормативная
+												лексика"
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="head__chat active__chat">
+							<p>50000000</p>
+							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 477.6 477.6"
+								style="enable-background: new 0 0 477.6 477.6" xml:space="preserve">
+								<g>
+									<g>
+										<path class="st0" d="M407.6,70c-45.1-45.1-105-70-168.8-70S115.1,24.9,70,70c-87,87-93.3,226-15.8,320.2
+												c-10.7,21.9-23.3,36.5-37.6,43.5C7.9,438,3,447.4,4.4,457c1.5,9.7,8.9,17.2,18.6,18.7c5.3,0.8,11,1.3,16.9,1.3l0,0
+												c29.3,0,60.1-10.1,85.8-27.8c34.6,18.6,73.5,28.4,113.1,28.4c63.8,0,123.7-24.8,168.8-69.9s69.9-105.1,69.9-168.8
+												S452.7,115.1,407.6,70z" />
+										<path class="st1"
+											d="M338.8,160h-200c-7.5,0-13.5,6-13.5,13.5s6,13.5,13.5,13.5h200c7.5,0,13.5-6,13.5-13.5S346.2,160,338.8,160z" />
+										<path class="st1" d="M338.8,225.3h-200c-7.5,0-13.5,6-13.5,13.5s6,13.5,13.5,13.5h200c7.5,0,13.5-6,13.5-13.5
+												S346.2,225.3,338.8,225.3z" />
+										<path class="st1" d="M338.8,290.6h-200c-7.5,0-13.5,6-13.5,13.5s6,13.5,13.5,13.5h200c7.5,0,13.5-6,13.5-13.5
+												S346.2,290.6,338.8,290.6z" />
+									</g>
+								</g>
+							</svg>
+						</div>
+					</div>
+					<div class="head__right clickedElem">
+						<div class="head__bottom clickedElem">
+							<span>RU</span>
+							<i class="fal fa-chevron-down"></i>
+							<div class="hide__link">
+								<a href="#/">UZ</a>
+							</div>
+						</div>
+						<a href="#/" class="head__singIn">
+							<i class="fas fa-sign-in"></i>
+							<p>Войти</p>
+						</a>
+						<div class="head__profile">
+							<div class="head__foto">
+								<img src="img/avatar.png" />
+							</div>
+							<div class="head__profile_content">
+								<div class="head__logine">
+									<p>Hamillioner</p>
+									<i class="fal fa-chevron-down"></i>
+								</div>
+								<div class="head__name">Тимур Касымов</div>
+								<div class="head__line_block">
+									<div class="head__line"></div>
+									<div class="head__line_number">1 LV</div>
+								</div>
+							</div>
+						</div>
+						<div class="head__hide">
+							<div class="head__hide_box">
+								<div class="head__hide_left">
+									<a class="head__hide_share" href="#/">
+										<span>ФИНАНСЫ</span>
+										<i class="fas fa-external-link-alt"></i> </a><br />
+									<a href="#/">История переводов</a><br />
+									<a href="#/">Реферальная программа</a><br />
+									<a href="#/">Платный услуги</a><br />
+									<a href="#/">Настройки</a><br />
+								</div>
+								<div class="head__hide_right">
+									<a class="head__hide_share" href="#/">
+										<span>ПРОФИЛЬ</span>
+										<i class="fas fa-external-link-alt"></i> </a><br />
+									<a href="#/">Команды</a><br />
+									<a href="#/">Вкладки</a><br />
+									<a href="#/">Мои заявки</a><br />
+									<a href="#/">Творческая мастерская</a><br />
+								</div>
+							</div>
+							<div class="media__hide_box">
+								<div class="media__hide_button">
+									<a href="#/">ПРОФИЛЬ</a>
+									<i class="fas fa-external-link-alt icon"></i>
+									<i class="fal fa-chevron-down down__icon"></i>
+								</div>
+								<div class="media__hide_links">
+									<a href="#/">История переводов</a><br />
+									<a href="#/">Реферальная программа</a><br />
+									<a href="#/">Платный услуги</a><br />
+									<a href="#/">Настройки</a>
+								</div>
+
+								<div class="color_blue media__hide_button">
+									<a href="#/">ФИНАНСЫ</a>
+									<i class="fas fa-external-link-alt icon"></i>
+									<i class="fal fa-chevron-down down__icon"></i>
+								</div>
+								<div class="media__hide_links">
+									<a href="#/">Команды</a><br />
+									<a href="#/">Вкладки</a><br />
+									<a href="#/">Мои заявки</a><br />
+									<a href="#/">Творческая мастерская</a>
+								</div>
+							</div>
+							<div class="head__hide_bottom">
+								<a class="head__support" href="#/">
+									<span>Поддержка</span>
+									<i class="fas fa-headset"></i>
+								</a>
+								<a class="head__logout" href="#/">
+									<span>Выход</span>
+									<i class="fas fa-sign-out"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="nav__botton">
+					<h1>Финансы</h1>
+					<div class="nav__btn">
+						<a class="btn2 info__btn" href="/finance.html">Финансы</a>
+						<a class="btn" href="/translate.html">История</a>
+					</div>
+				</div>
+			</div>
+			<div class="head__media_modal clickedElem">
+				<div class="head__modal_inner">
+					<a href="#/">Заказы</a>
+					<a href="#/">Вакансии</a>
+					<div class="media__hide_box">
+						<div class="media__hide_button">
+							<a href="#/">Люди</a>
+							<i class="fal fa-chevron-down down__icon"></i>
+						</div>
+						<div class="media__hide_links">
+							<a href="#/">Все команды</a>
+							<a href="#/">Все исполнители</a>
+						</div>
+
+						<div class="media__hide_button">
+							<a href="#/">Еще</a>
+							<i class="fal fa-chevron-down down__icon"></i>
+						</div>
+						<div class="media__hide_links">
+							<a href="#/">Форум</a>
+							<a href="#/">Блог</a>
+							<a href="#/">Новости</a>
+						</div>
+					</div>
+					<div class="change__lang">
+						<p class="change__title">Язык</p>
+						<p class="active__lang">RU</p>
+						<p>UZ</p>
+					</div>
+					<i class="fas fa-times-circle close"></i>
+				</div>
+				<div class="mobile__modal">
+					<div class="head__profile">
+						<div class="head__foto">
+							<img src="img/avatar.png" />
+						</div>
+						<div class="head__profile_content">
+							<div class="modile__head_login">
+								<p>Hamillioner</p>
+							</div>
+							<div class="head__name">Тимур Касымов</div>
+							<div class="head__line_block">
+								<div class="head__line"></div>
+								<div class="head__line_number">1 LV</div>
+							</div>
+						</div>
+					</div>
+					<div class="media__hide_box">
+						<div class="media__hide_button">
+							<a href="#/">Меню</a>
+							<i class="fal fa-chevron-down down__icon"></i>
+						</div>
+						<div class="media__hide_links">
+							<a href="#/">Заказы</a>
+							<a href="#/">Вакансии</a>
+							<a href="#/">Все команды</a>
+							<a href="#/">Все исполнители</a>
+							<a href="#/">Форум</a>
+							<a href="#/">Блог</a>
+							<a href="#/">Новости</a>
+						</div>
+
+						<div class="media__hide_button">
+							<a href="#/">ПРОФИЛЬ</a>
+							<i class="fal fa-chevron-down down__icon"></i>
+						</div>
+						<div class="media__hide_links">
+							<a href="#/">История переводов</a>
+							<a href="#/">Реферальная программа</a>
+							<a href="#/">Платный услуги</a>
+							<a href="#/">Настройки</a>
+						</div>
+
+						<div class="media__hide_button">
+							<a href="#/">ФИНАНСЫ</a>
+							<i class="fal fa-chevron-down down__icon"></i>
+						</div>
+						<div class="media__hide_links">
+							<a href="#/">Команды</a>
+							<a href="#/">Вкладки</a>
+							<a href="#/">Мои заявки</a>
+							<a href="#/">Творческая мастерская</a>
+						</div>
+					</div>
+					<div class="change__lang">
+						<p class="change__title">Язык</p>
+						<p class="active__lang">RU</p>
+						<p>UZ</p>
+					</div>
+					<div class="head__hide_bottom">
+						<a class="head__support" href="#/">
+							<span>Поддержка</span>
+							<i class="fas fa-headset"></i>
+						</a>
+						<a class="head__logout" href="#/">
+							<span>Выход</span>
+							<i class="fas fa-sign-out"></i>
+						</a>
+					</div>
+					<i class="fas fa-times-circle close"></i>
+				</div>
+			</div>
+
+			<div class="mobile__bell_modal hide__modal_block">
+				<div class="hide__modal_triangle"></div>
+				<div class="hide__bell_modal">
+					<div class="hide__modal_iteam">
+						<i class="fas fa-bullhorn"></i>
+						<div class="hide__modal_content">
+							<div class="hide__modal_title">Напоминание</div>
+							<div class="hide__modal_text">
+								Действие вашего вашего тарифа истекает через 1 день!
+							</div>
+						</div>
+					</div>
+					<div class="hide__modal_iteam">
+						<i class="fas fa-award"></i>
+						<div class="hide__modal_content">
+							<div class="hide__modal_title">Достижение</div>
+							<div class="hide__modal_text">
+								Вы получили новое достижение “Торговец”
+							</div>
+						</div>
+					</div>
+					<div class="hide__modal_iteam">
+						<i class="fas fa-star"></i>
+						<div class="hide__modal_content">
+							<div class="hide__modal_title">Рейтинг</div>
+							<div class="hide__modal_text">
+								Ваш рейтинг повысился просмотрите новый отзыв от
+								<span>Hamilioner</span>
+							</div>
+						</div>
+					</div>
+					<div class="hide__modal_iteam">
+						<i class="fas fa-star"></i>
+						<div class="hide__modal_content">
+							<div class="hide__modal_title">Рейтинг</div>
+							<div class="hide__modal_text">
+								Ваш рейтинг повысился просмотрите новый отзыв от
+								<span>Hamilioner</span>
+							</div>
+						</div>
+					</div>
+					<div class="hide__modal_iteam">
+						<i class="fas fa-star"></i>
+						<div class="hide__modal_content">
+							<div class="hide__modal_title">Рейтинг</div>
+							<div class="hide__modal_text">
+								Ваш рейтинг повысился просмотрите новый отзыв от
+								<span>Hamilioner</span>
+							</div>
+						</div>
+					</div>
+					<div class="hide__modal_iteam">
+						<i class="fas fa-star"></i>
+						<div class="hide__modal_content">
+							<div class="hide__modal_title">Рейтинг</div>
+							<div class="hide__modal_text">
+								Ваш рейтинг повысился просмотрите новый отзыв от
+								<span>Hamilioner</span>
+							</div>
+						</div>
+					</div>
+					<div class="hide__modal_iteam">
+						<i class="fas fa-gift"></i>
+						<div class="hide__modal_content">
+							<div class="hide__modal_title">Подарки</div>
+							<div class="hide__modal_text">
+								Администрация Letcop поздравляет вас с Днем Рождения, вы
+								получаете в подарок тариф "Gold"
+							</div>
+						</div>
+					</div>
+					<div class="hide__modal_iteam">
+						<i class="fas fa-exclamation-circle"></i>
+						<div class="hide__modal_content">
+							<div class="hide__modal_title">Администрация</div>
+							<div class="hide__modal_text">
+								Ваш заказ был удален по причине "Ненормативная лексика"
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Main -->
+	<main class="main">
+		<section class="section order">
+			<div class="container">
+				<div class="section__h2">
+					<h2>Активные заказы</h2>
+					<span>Отобразить ценны
+						<select class="font-weight-bold" name="USD" id="">
+							<option value="">USD</option>
+							<option value="">USD</option>
+						</select>
+					</span>
+				</div>
+			</div>
+			<div class="table">
+				<div class="container">
+					<div class="table__top">
+						<p>Работодатель</p>
+						<p>Название проекта</p>
+						<span>Сумма</span>
+						<p>Описание</p>
+						<span>Статус</span>
+						<span>Действие</span>
+					</div>
+					<ul class="table__block">
+						<li>
+							<p data-label="Работодатель">Антон Пушкин</p>
+							<p data-label="Название проекта">Онлайн школа</p>
+							<span data-label="Сумма">500 $</span>
+							<p data-label="Описание">Информация в комментариях</p>
+							<span data-label="Статус">В разработке</span>
+							<span data-label="Действие">В разработке</span>
+						</li>
+						<li>
+							<p data-label="Работодатель">Антон Пушкин</p>
+							<p data-label="Название проекта">Онлайн школа</p>
+							<span data-label="Сумма">500 $</span>
+							<p data-label="Описание">Информация в комментариях</p>
+							<span data-label="Статус">Готово</span>
+							<span data-label="Действие">Готово</span>
+						</li>
+						<li>
+							<p data-label="Работодатель">Антон Пушкин</p>
+							<p data-label="Название проекта">Онлайн школа</p>
+							<span data-label="Сумма">500 $</span>
+							<p data-label="Описание">Информация в комментариях</p>
+							<span data-label="Статус">В разработке</span>
+							<span data-label="Действие">В разработке</span>
+						</li>
+						<li>
+							<p data-label="Работодатель">Антон Пушкин</p>
+							<p data-label="Название проекта">Онлайн школа</p>
+							<span data-label="Сумма">500 $</span>
+							<p data-label="Описание">Информация в комментариях</p>
+							<span data-label="Статус">В разработке</span>
+							<span data-label="Действие">В разработке</span>
+						</li>
+						<li>
+							<p data-label="Работодатель">Антон Пушкин</p>
+							<p data-label="Название проекта">Онлайн школа</p>
+							<span data-label="Сумма">500 $</span>
+							<p data-label="Описание">Информация в комментариях</p>
+							<span data-label="Статус">В разработке</span>
+							<span data-label="Действие">В разработке</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="statistics">
+			<div class="container">
+				<div class="cards__title">
+					<h2>Статистика</h2>
+				</div>
+				<div class="cards__box">
+					<div class="cards__block">
+						<h3 class="font-weight-bold text-center">ВЫПОЛНЕННО ПРОЕКТОВ</h3>
+						<div class="cards__info">
+							<p>За последние 30 дней</p>
+							<span class="mid-line"></span>
+							<p>За все время</p>
+						</div>
+						<div class="cards__bottom">
+							<p>12</p>
+							<p>30</p>
+						</div>
+					</div>
+					<div class="cards__block">
+						<h3 class="font-weight-bold text-center">В РАБОТЕ</h3>
+						<div class="cards__info">
+							<p>Активные проекты</p>
+							<span class="mid-line"></span>
+							<p>Активные платежи</p>
+						</div>
+						<div class="cards__bottom">
+							<p>12</p>
+							<p>30 $</p>
+						</div>
+					</div>
+					<div class="cards__block">
+						<h3 class="font-weight-bold text-center">
+							РЕЙТИНГ ЗАВЕРШЕНОСТИ - 10%
+						</h3>
+						<div class="cards__info">
+							<p>Кол-во активных заказов</p>
+							<span class="mid-line"></span>
+							<p>Завершенных</p>
+						</div>
+						<div class="cards__bottom">
+							<p>12</p>
+							<p>30</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="income">
+			<div class="container">
+				<div class="section__h2">
+					<h2 class="font-weight-bold">Финансовый отчет</h2>
+					<span>Тип периода
+						<select class="font-weight-bold" name="Год" id="">
+							<option value="">Год</option>
+							<option value="">Год</option>
+						</select>
+					</span>
+					<span>Период
+						<select class="font-weight-bold" name="Год" id="">
+							<option value="">Год</option>
+							<option value="">Год</option>
+						</select>
+					</span>
+				</div>
+			</div>
+			<div class="income__top">
+				<div class="container">
+					<p>Доходы</p>
+					<p>Расходы</p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="income__box">
+					<div class="income__left">
+						<ul id="_income-box" class="items">
+							<li>
+								<p>Прибыль от выполнения заказов</p>
+								<span>500 $</span>
+							</li>
+							<li>
+								<p>Прибыль от творческой мастерской</p>
+								<span>500 $</span>
+							</li>
+							<li>
+								<p>Прибыль от реферальной программы</p>
+								<span>500 $</span>
+							</li>
+						</ul>
+						<div class="item">
+							<div class="top">
+								<p>Общий доход</p>
+								<span id="total-income">5000 $</span>
+							</div>
+							<div class="botton">
+								<p>Прибыль в ожидании</p>
+								<span>360 $</span>
+							</div>
+						</div>
+					</div>
+					<div class="income__right">
+						<ul id="_expenses-box" class="items">
+							<li>
+								<p>Оплата заказов</p>
+								<span>500 $</span>
+							</li>
+							<li>
+								<p>Комиссия биржи (2%)</p>
+								<span>84 $</span>
+							</li>
+						</ul>
+						<div class="item">
+							<div class="top">
+								<p>Общий расход</p>
+								<span id="total-expenses">132 $</span>
+							</div>
+							<div class="botton">
+								<p>Расход в ожидании</p>
+								<span>60 $</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="cards">
+			<div class="container">
+				<div class="cards__title">
+					<h2>Мои карты / кошельки</h2>
+					<a href="#" class="btn">Добавить</a>
+				</div>
+				<div class="cards__box">
+					<div class="cards__block">
+						<span>Uz card</span>
+						<div class="cards__num">
+							<p>5245 **** **** **** 2548</p>
+						</div>
+						<div class="cards__botton">
+							<p>EVGENIY PETROV</p>
+							<p>10/22</p>
+						</div>
+					</div>
+					<div class="cards__block">
+						<span>Uz card</span>
+						<div class="cards__num">
+							<p>5245 **** **** **** 2548</p>
+						</div>
+						<div class="cards__botton">
+							<p>EVGENIY PETROV</p>
+							<p>10/22</p>
+						</div>
+					</div>
+					<div class="cards__block">
+						<span>Uz card</span>
+						<div class="cards__num">
+							<p>5245 **** **** **** 2548</p>
+						</div>
+						<div class="cards__botton">
+							<p>EVGENIY PETROV</p>
+							<p>10/22</p>
+						</div>
+					</div>
+					<div class="cards__block">
+						<span>Uz card</span>
+						<div class="cards__num">
+							<p>5245 **** **** **** 2548</p>
+						</div>
+						<div class="cards__botton">
+							<p>EVGENIY PETROV</p>
+							<p>10/22</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Footer -->
+	<footer class="footer disNon">
+		<div class="container_ded">
+			<div class="footer__item">
+				<a href="#" class="letcop__com">
+					<img src="img/1.svg" id="letcop_com" alt="Letcop.com" />
+					<div>LETCOP <span> group </span></div>
+				</a>
+				<a href="#" class="letcop__com">
+					<img src="img/INVESTONSE.svg" class="investonse" id="investonse" alt="INVESTONSE" />
+				</a>
+			</div>
+
+			<div class="footer__item">
+				<div class="footer__item__head">О сервисе</div>
+				<div class="item__list">
+					<a href="#">О компании</a> <br />
+					<a href="#">Контакты</a>
+				</div>
+			</div>
+
+			<div class="footer__item">
+				<div class="footer__item__head">Пользователям</div>
+				<div class="item__list">
+					<a href="#">Тарифы</a> <br />
+					<a href="#">Фриланс заказы</a> <br />
+					<a href="#">Архив заказов</a> <br />
+					<a href="#">Реферальная программа</a>
+				</div>
+			</div>
+
+			<div class="footer__item">
+				<div class="footer__item__head">Помощь</div>
+				<div class="item__list">
+					<a href="#">Помощь</a> <br />
+					<a href="#">Правила сервиса</a> <br />
+					<a href="#">Служба поддержки</a>
+				</div>
+			</div>
+
+			<div class="footer__item">
+				<div class="footer__item__head">Социальные сети</div>
+				<div class="social soc-end">
+					<a href="https://www.facebook.com/letcopcom" target="_blank"><i class="fab fa-facebook-square"></i></a>
+					<a href="https://www.instagram.com/letcop/" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="https://t.me/letcop" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+					<a href="https://www.youtube.com/channel/UCUsrbBhYrHi9tguALYINWfA?view_as=subscriber" target="_blank"><i
+							class="fab fa-youtube"></i></a>
+				</div>
+				<br /><br />
+				<p class="copy">&copy; Letcop 2020</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Мобильный футер -->
+
+	<div class="footer__mob dis">
+		<div class="footer__item">
+			<a href="#" class="logo__mob">
+				<img src="img/investonse_mob.png" class="investonse_mob" id="investonse_mob" alt="INVESTONSE" />
+			</a>
+		</div>
+
+		<div id="aboutServiceBlock" class="footer__item">
+			О сервисе
+			<span class="spanFin"><i id="chevronAbSv" style="cursor: pointer" class="fal fa-chevron-down"></i></span>
+		</div>
+		<div id="aboutServiceBlocks" class="blocks_fr" style="overflow: hidden; height: 0">
+			<a href="#" class="fr__item">О компании</a>
+			<div class="fr__line"></div>
+			<a href="#" class="fr__item">Контакты</a>
+		</div>
+
+		<div id="forUsersBlock" class="footer__item">
+			Пользователям
+			<span class="spanFin"><i id="chevronForUsers" style="cursor: pointer" class="fal fa-chevron-down"></i></span>
+		</div>
+		<div id="forUsersBlocks" class="blocks_fr" style="overflow: hidden; height: 0">
+			<a href="#" class="fr__item">Тарифы</a>
+			<div class="fr__line"></div>
+			<a href="#" class="fr__item">Фриланс заказы</a>
+			<div class="fr__line"></div>
+			<a href="#" class="fr__item">Архив заказов</a>
+			<div class="fr__line"></div>
+			<a href="#" class="fr__item">Реферальная программа</a>
+		</div>
+
+		<div id="hpBlock" class="footer__item">
+			Помощь
+			<span class="spanFin"><i id="chevronHp" style="cursor: pointer" class="fal fa-chevron-down"></i></span>
+		</div>
+		<div id="hpBlocks" class="blocks_fr" style="overflow: hidden; height: 0">
+			<a href="#" class="fr__item">Помощь</a>
+			<div class="fr__line"></div>
+			<a href="#" class="fr__item">Правила сервиса</a>
+			<div class="fr__line"></div>
+			<a href="#" class="fr__item">Служба поддержки</a>
+		</div>
+
+		<div id="scBlock" class="footer__item">
+			Социальные сети
+			<span class="spanFin"><i id="chevronSc" style="cursor: pointer" class="fal fa-chevron-down"></i></span>
+		</div>
+		<div id="scBlocks" class="blocks_fr social" style="overflow: hidden; height: 0">
+			<a href="https://www.facebook.com/letcopcom" target="_blank"><i class="fab fa-facebook-square"></i></a>
+			<a href="https://www.instagram.com/letcop/" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="https://t.me/letcop" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+			<a href="https://www.youtube.com/channel/UCUsrbBhYrHi9tguALYINWfA?view_as=subscriber" target="_blank"><i
+					class="fab fa-youtube"></i></a>
+		</div>
+
+		<p class="copy">&copy; Letcop 2020</p>
+	</div>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
