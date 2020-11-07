@@ -325,18 +325,16 @@ nav {
 	opacity: 1;
 	visibility: visible;
 }
-nav a,
+nav .nav_list,
+.hide__link a,
 .head__bottom {
 	font-size: 16px;
-
 	margin-right: 35px;
-
 	transition: 0.3s;
 	text-decoration: none;
-
 	color: #fff;
 }
-nav a:hover,
+nav .nav_list:hover,
 .head__bottom:hover,
 .head__bottom:hover i {
 	color: #00cf4d;
@@ -554,6 +552,12 @@ nav a:hover,
 }
 .head__support:after {
 	background-color: #00cf4d;
+}
+.head__support:hover {
+	color: #00cf4d;
+}
+.head__logout:hover {
+	color: #706cff;
 }
 .head__logout:after {
 	background-color: #706cff;
@@ -1897,6 +1901,10 @@ input:checked + .slider:before {
 }
 
 @media (max-width: 1040px) {
+	.nav__botton  {
+		padding-top: 10px !important;
+		display: block !important;
+	}
 	.head__left {
 		margin-right: auto;
 	}
@@ -2792,6 +2800,16 @@ input:checked + .slider:before {
 	}
 }
 @media (max-width: 550px) {
+	.nav__botton  {
+		padding-left: 0 !important;
+		display: block !important;
+	}
+	.section__h2 span {
+		margin-right: 15px !important;
+	}
+	.font-weight-bold .right_select {
+		margin-top: 10px;
+	}
 	.footer__item {
 		margin-top: 6px;
 		padding: 6px 0;
